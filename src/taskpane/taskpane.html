@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>ThinkCell-like</title>
+    <style>
+      body { font-family: Arial, sans-serif; margin: 16px; }
+      h1 { font-size: 18px; margin-bottom: 12px; }
+      button { width: 100%; padding: 10px; border: 0; border-radius: 6px; background: #0066cc; color: #fff; cursor: pointer; }
+      button:hover { background: #0053a6; }
+      .hint { margin-top: 10px; color: #444; font-size: 13px; }
+      pre { background: #f4f4f4; padding: 8px; border-radius: 6px; max-height: 180px; overflow: auto; }
+    </style>
+    <script src="https://appsforoffice.microsoft.com/lib/1/hosted/office.js"></script>
+    <script defer src="taskpane.js"></script>
+  </head>
+  <body>
+    <h1>ThinkCell-like para Excel</h1>
+    <button id="applyBtn">Aplicar estilo ThinkCell-like</button>
+    <p class="hint">Selecciona un rango con encabezados + valores antes de ejecutar.</p>
+    <pre id="status">Esperando acción...</pre>
+  </body>
+</html>
